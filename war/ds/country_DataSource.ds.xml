@@ -1,0 +1,11 @@
+<DataSource
+    ID="country_DataSource"
+    serverType="jpa"
+    beanClassName="com.smartgwt.sample.server.Country"
+    >
+    <fields>
+        <field name="countryId"     type="sequence" hidden="true"   primaryKey="true" />
+        <field name="countryCode"   type="text"     title="Code"    required="true"   />
+        <field name="countryName"   type="text"     title="Country" required="true"   />
+    </fields>
+</DataSource>

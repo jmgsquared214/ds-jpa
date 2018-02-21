@@ -1,0 +1,11 @@
+<DataSource
+    ID="city_DataSource"
+    serverType="jpa"
+    beanClassName="com.smartgwt.sample.server.City"
+    >
+    <fields>
+        <field name="cityId"    type="sequence" hidden="true"   primaryKey="true" />
+        <field name="cityName"  type="text"     title="City"    required="true"   />
+        <field name="countryId" type="integer"  title="Country" canEdit="false"   />
+    </fields>
+</DataSource>
